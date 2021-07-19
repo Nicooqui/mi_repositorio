@@ -1,0 +1,5 @@
+@mixin header {
+  background-color: $bgcHeader;
+  display: flex;
+  justify-content: center;
+}
