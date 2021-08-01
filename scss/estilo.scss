@@ -9,15 +9,13 @@
   box-sizing: content-box; }
 
 body {
-  background-color: $bgcBody; }
-
-header {
-  @include header;   
+  background-color: $bgcBody; 
 }
 
-.logo {
-  width: 200px; }
 
+.logo {
+  width: 50px; 
+}
 .search {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -250,13 +248,14 @@ footer {
 .containerGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.7fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.5fr 0.2fr 1fr 0.7fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: 
  ". title1 title1 title1 title1 title1 title1 title1 title1 title1 ."
  ". img1 img1 img1 img1 . desc-1 desc-1 desc-1 desc-1 ."
  ". img1 img1 img1 img1 . desc-1 desc-1 desc-1 desc-1 ."
+ ". . . . . . . . . . ."
  ". desc2 desc2 desc2 desc2 . img2 img2 img2 img2 ."
  ". desc2 desc2 desc2 desc2 . img2 img2 img2 img2 ."
  ". . . title2 title2 title2 title2 title2 . . ."
@@ -335,12 +334,13 @@ footer {
   .containerGrid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 0.2fr 0.3fr 0.4fr 0.3fr 0.2fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.3fr 0.2fr 0.4fr 0.3fr 0.2fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "title1"
  "img1"
  "desc-1"
+ "."
  "img2"
  "desc2"
  "title2"
