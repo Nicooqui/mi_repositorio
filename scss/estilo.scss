@@ -57,7 +57,7 @@ body {
 
 
 
-/* FIN SUBMENÚ */
+
 
 /* Títulos y párrafos */
 .title1 {
@@ -117,11 +117,23 @@ h3 {
 
 @media screen and (max-width: 600px) {
   h1 {
+    color: $titleColor;
     margin-top: 15px;
     margin-left: auto;
     width: 100%;
     font-size: 25px;
-    height: auto; } }
+    height: auto; } 
+  h2 {
+    color: $titleColor;
+  }
+  h3 {
+    color: $titleColor;
+  }
+  .footer__ul {
+    color: $titleColor;
+    font-weight: 700;
+  }
+}
 
 /* IMÁGENES con nesting*/
 .container__img {
