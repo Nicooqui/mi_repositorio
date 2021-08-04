@@ -1,6 +1,6 @@
-# United Gamers | My **first** website
+United Gamers | My first website
 
-##What I used to create this website was:##
+What I used to create this website was:
 
  *HTML
  *CSS
